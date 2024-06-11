@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from '../../components/card/card'
 import './profile.scss'
+import { Chat } from '../../components/chat/chat'
 export const Profile = () => {
   return (
     <div className="profilePage">
@@ -38,7 +39,7 @@ export const Profile = () => {
     </div>
     <div className="chatContainer">
       <div className="wrapper">
-        
+        <Chat/>
       </div>
     </div>
   </div>
